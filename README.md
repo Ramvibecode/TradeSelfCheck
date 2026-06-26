@@ -1,12 +1,12 @@
 # TradeSelfCheck
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Status](https://img.shields.io/badge/status-MVP-blue)
+![Status](https://img.shields.io/badge/status-V2-blue)
 ![Market Watch](https://img.shields.io/badge/focus-BTC%20%2B%20Gold-orange)
 
 **AI-assisted market-watch, setup tracking, and proof-card workflow for BTC and Gold.**
 
-TradeSelfCheck helps traders, learners, creators, and market-watch communities prepare structured daily views for BTC and Gold using risk-defined levels, invalidation zones, journal tracking, and shareable content formats.
+TradeSelfCheck helps traders, learners, creators, and market-watch communities prepare structured daily views for BTC and Gold using risk-defined levels, invalidation zones, review status, journal tracking, and shareable content formats.
 
 > Educational market-watch only. This project does **not** provide financial advice, guaranteed signals, or automated trading instructions.
 
@@ -32,10 +32,11 @@ The goal is to build transparent, reviewable market-watch posts and proof cards 
 - BTC + Gold setup tracking
 - Manual market input workflow
 - Trend, bias, support, resistance, invalidation, and target zones
+- Setup review status: active, target reached, invalidated, no trade, or closed
 - Risk-first setup builder
 - X/Twitter post generator
 - Telegram-ready summary generator
-- Proof-card style dashboard
+- Exportable proof-card PNG
 - Local browser storage
 - No broker connection
 - No auto-trading
@@ -51,12 +52,14 @@ Open `index.html` in your browser, or deploy the repository with GitHub Pages / 
 
 ## Product Preview
 
-TradeSelfCheck V1 includes a dark fintech-style dashboard with:
+TradeSelfCheck V2 includes a dark fintech-style dashboard with:
 
 - Market cards for BTC and Gold
 - Setup builder
 - Risk checklist
+- Setup review status
 - Generated social post
+- Exportable proof card
 - Journal notes
 - Educational disclaimer
 
@@ -67,14 +70,21 @@ TradeSelfCheck V1 includes a dark fintech-style dashboard with:
 ```text
 BTC Market Watch — Educational View
 
-Bias: Bullish above 64,500
+Bias: Bullish above confirmation
 Support: 63,800 / 62,900
 Resistance: 65,400 / 66,200
 Invalidation: Below 62,500
 Target Zones: 65,400 → 66,200 → 67,000
+Review: Setup still active
+Review Date: 2026-06-27
 
-Plan: Wait for confirmation before action. No chase entry.
-Risk: Invalidate quickly if price closes below the key level.
+Plan: Wait for confirmation. Avoid chasing candles. Invalidate quickly if price closes below the key level.
+
+Checklist:
+- Wait for confirmation before action
+- Avoid chasing candles
+- Respect invalidation
+- Keep risk small and defined
 
 Not financial advice. Educational market-watch only.
 ```
@@ -91,7 +101,8 @@ Not financial advice. Educational market-watch only.
 - [x] BTC + Gold manual setup tracker
 - [x] Post generator
 - [x] Local storage
-- [ ] Screenshot/proof-card export
+- [x] Screenshot/proof-card export
+- [x] Setup review status
 - [ ] GitHub Pages deployment
 
 ### Phase 2 — Automation
