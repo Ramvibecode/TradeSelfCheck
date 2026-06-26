@@ -27,7 +27,7 @@
         <h1>Risk-first setup tracking before market opinions go public.</h1>
         <p class="hero-copy">
           Build structured educational market-watch posts with bias, key levels,
-          invalidation, risk notes, and proof-card style summaries.
+          invalidation, risk notes, review status, and proof-card style summaries.
         </p>
         <div class="hero-actions">
           <a class="button primary" href="#builder">Create Setup</a>
@@ -35,10 +35,10 @@
         </div>
       </div>
 
-      <div class="proof-card">
+      <div class="proof-card" id="proof-card">
         <div class="proof-topline">
           <span>Daily Proof Card</span>
-          <span class="pill">Educational</span>
+          <span class="pill" id="preview-status">Active Watch</span>
         </div>
         <h2 id="preview-symbol">BTC</h2>
         <p id="preview-bias" class="bias bullish">Bullish above confirmation</p>
@@ -48,6 +48,7 @@
           <div><small>Invalidation</small><strong id="preview-invalid">62,500</strong></div>
           <div><small>Target Zone</small><strong id="preview-target">66,200</strong></div>
         </div>
+        <p class="review-line" id="preview-review">Review: Setup still active</p>
         <p class="disclaimer">Not financial advice. Market-watch only.</p>
       </div>
     </section>
@@ -78,11 +79,11 @@
         </article>
         <article class="market-card neutral">
           <div class="card-title">
-            <span>Journal</span>
-            <span class="status">Local</span>
+            <span>Review</span>
+            <span class="status">Transparent</span>
           </div>
-          <h3>Review Later</h3>
-          <p>Save your setup notes locally and compare setup vs actual movement.</p>
+          <h3>Check Later</h3>
+          <p>Mark each setup as active, hit target, hit invalidation, no trade, or closed.</p>
         </article>
       </div>
     </section>
@@ -132,6 +133,22 @@
           <input id="target" value="65,400 → 66,200 → 67,000" />
         </label>
 
+        <label>
+          Setup Review
+          <select id="review">
+            <option value="Setup still active">Setup still active</option>
+            <option value="Target zone reached">Target zone reached</option>
+            <option value="Invalidation triggered">Invalidation triggered</option>
+            <option value="No trade / no confirmation">No trade / no confirmation</option>
+            <option value="Closed manually">Closed manually</option>
+          </select>
+        </label>
+
+        <label>
+          Review Date
+          <input id="reviewDate" type="date" />
+        </label>
+
         <label class="wide">
           Risk Notes
           <textarea id="risk" rows="4">Wait for confirmation. Avoid chasing candles. Invalidate quickly if price closes below the key level.</textarea>
@@ -144,6 +161,7 @@
 
         <div class="form-actions wide">
           <button class="button primary" type="submit">Generate Market Watch</button>
+          <button class="button secondary" type="button" id="export-card">Export Proof Card PNG</button>
           <button class="button secondary" type="button" id="save-journal">Save Journal</button>
         </div>
       </form>
