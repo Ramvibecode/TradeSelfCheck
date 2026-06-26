@@ -103,28 +103,14 @@ Not financial advice. Educational market-watch only.
 - [ ] Markdown report export
 - [ ] Chart image support
 
-### Phase 3 — Growth
+### Phase 3 — Community
 
 - [ ] ETH support
 - [ ] Nifty / Bank Nifty educational watch
 - [ ] Public templates
 - [ ] Community examples
-- [ ] Premium report version
-- [ ] Sponsor page
-
----
-
-## Monetization Plan
-
-TradeSelfCheck can support multiple income paths over time:
-
-1. GitHub Sponsors for open-source support
-2. Premium Telegram or Discord market-watch community
-3. YouTube Shorts / Reels using daily proof cards
-4. Affiliate partnerships for charting or creator tools
-5. Future hosted SaaS dashboard
-
-GitHub Sponsors should be treated as a credibility and community-support channel first, not the only business model.
+- [ ] Example report gallery
+- [ ] Contributor guide
 
 ---
 
@@ -149,6 +135,18 @@ Preferred wording:
 - Invalidation
 - Educational view
 - Not financial advice
+
+---
+
+## Support the Project
+
+The simplest way to support TradeSelfCheck is to help improve the open-source project:
+
+- Star this repository
+- Report bugs or confusing workflows
+- Suggest useful features
+- Share safe educational examples
+- Contribute improvements through pull requests
 
 ---
 
