@@ -69,33 +69,6 @@ Suggested setup statuses:
 
 ---
 
-## Safety Principles
-
-Use wording that keeps the project educational and process-focused.
-
-Avoid:
-
-- Buy now
-- Sure shot
-- Guaranteed profit
-- Profit confirmed
-- High accuracy calls
-- Premium signals
-
-Use:
-
-- Market watch
-- Setup tracking
-- Risk-defined setup
-- Watch levels
-- Educational view
-- Not financial advice
-- If price confirms
-- Invalidation level
-- Target zones
-
----
-
 ## Data Rules
 
 The MVP should work without paid market data.
