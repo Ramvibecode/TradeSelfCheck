@@ -25,13 +25,14 @@
 - Daily markdown report archive
 - GitHub Actions draft report workflow
 
-## V4 — Community + Monetization
+## V4 — Community Improvements
 
-- GitHub Sponsors profile setup
-- Premium Telegram/Discord playbook
 - Public examples gallery
 - Weekly market-watch template pack
-- Hosted SaaS prototype
+- Contributor guide
+- Issue templates
+- Documentation improvements
+- GitHub Pages demo polish
 
 ## V5 — Expanded Markets
 
