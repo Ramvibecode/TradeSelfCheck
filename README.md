@@ -4,9 +4,9 @@
 ![Status](https://img.shields.io/badge/status-V2-blue)
 ![Market Watch](https://img.shields.io/badge/focus-BTC%20%2B%20Gold-orange)
 
-**AI-assisted market-watch, setup tracking, and proof-card workflow for BTC and Gold.**
+**Open-source market setup workflow for documenting, reviewing, and sharing structured market analysis.**
 
-TradeSelfCheck helps traders, learners, creators, and market-watch communities prepare structured daily views for BTC and Gold using risk-defined levels, invalidation zones, review status, journal tracking, and shareable content formats.
+TradeSelfCheck helps users document BTC and Gold market observations using structured levels, invalidation zones, risk notes, review status, journal history, and shareable text/image outputs.
 
 > Educational market-watch only. This project does **not** provide financial advice, guaranteed signals, or automated trading instructions.
 
@@ -16,27 +16,26 @@ TradeSelfCheck helps traders, learners, creators, and market-watch communities p
 
 Most trading content online shows only the result. TradeSelfCheck focuses on the process:
 
-- What is the current trend?
+- What is the current market context?
 - What levels matter?
-- What confirms the setup?
-- Where is the invalidation?
+- What confirms or invalidates the setup?
 - What is the risk before any idea is shared?
 - What happened after the setup?
 
-The goal is to build transparent, reviewable market-watch posts and proof cards instead of hype-driven signals.
+The goal is to make market observations easier to document, review, and learn from.
 
 ---
 
 ## MVP Features
 
-- BTC + Gold setup tracking
+- BTC and Gold setup builder
 - Manual market input workflow
 - Trend, bias, support, resistance, invalidation, and target zones
-- Setup review status: active, target reached, invalidated, no trade, or closed
-- Risk-first setup builder
-- X/Twitter post generator
-- Telegram-ready summary generator
-- Exportable proof-card PNG
+- Setup review status: active, target reached, invalidated, avoided, or closed
+- Risk-first checklist
+- X/Twitter text export
+- Telegram text export
+- PNG image export
 - Local browser storage
 - No broker connection
 - No auto-trading
@@ -50,16 +49,16 @@ Open `index.html` in your browser, or deploy the repository with GitHub Pages / 
 
 ---
 
-## Product Preview
+## Interface Overview
 
-TradeSelfCheck V2 includes a dark fintech-style dashboard with:
+TradeSelfCheck currently includes a dark dashboard with:
 
 - Market cards for BTC and Gold
 - Setup builder
 - Risk checklist
 - Setup review status
-- Generated social post
-- Exportable proof card
+- Generated market-watch text
+- PNG export
 - Journal notes
 - Educational disclaimer
 
@@ -93,35 +92,49 @@ Not financial advice. Educational market-watch only.
 
 ## Roadmap
 
-### Phase 1 — MVP
+### V1 — Foundation
 
-- [x] Public repository
-- [x] README
-- [x] Static dashboard
-- [x] BTC + Gold manual setup tracker
-- [x] Post generator
-- [x] Local storage
-- [x] Screenshot/proof-card export
-- [x] Setup review status
-- [ ] GitHub Pages deployment
+- [x] Project documentation
+- [x] Static web interface
+- [x] BTC and Gold setup builder
+- [x] Market watch generator
+- [x] X/Twitter text export
+- [x] Telegram text export
+- [x] Local browser storage
+- [x] Risk and disclaimer templates
 
-### Phase 2 — Automation
+### V2 — Setup Review
 
-- [ ] Daily report generation
-- [ ] Telegram draft delivery
-- [ ] GitHub Actions workflow
-- [ ] Historical report archive
-- [ ] Markdown report export
-- [ ] Chart image support
+- [x] Setup summary cards
+- [x] Support and resistance visualization
+- [x] Image export (PNG)
+- [x] Setup history
+- [x] Example scenarios
 
-### Phase 3 — Community
+### V3 — Data Support
 
-- [ ] ETH support
-- [ ] Nifty / Bank Nifty educational watch
-- [ ] Public templates
-- [ ] Community examples
-- [ ] Example report gallery
+- [ ] Optional BTC price retrieval
+- [ ] Optional Gold price retrieval
+- [ ] Manual price and level overrides
+- [ ] Daily Markdown snapshots
+- [ ] GitHub Actions for report generation
+
+### V4 — Project Maintenance
+
+- [ ] Example gallery
 - [ ] Contributor guide
+- [ ] Issue templates
+- [ ] Documentation improvements
+- [ ] GitHub Pages updates
+
+### V5 — Market Expansion
+
+- [ ] ETH
+- [ ] NIFTY
+- [ ] BANKNIFTY
+- [ ] Selected Indian stocks
+- [ ] Indian options
+- [ ] Watchlists
 
 ---
 
@@ -139,7 +152,7 @@ This repository intentionally avoids:
 Preferred wording:
 
 - Market watch
-- Setup tracker
+- Setup tracking
 - Risk-defined setup
 - Watch levels
 - Confirmation
@@ -149,15 +162,15 @@ Preferred wording:
 
 ---
 
-## Support the Project
+## Project Improvements
 
-The simplest way to support TradeSelfCheck is to help improve the open-source project:
+Useful ways to improve the project:
 
-- Star this repository
 - Report bugs or confusing workflows
-- Suggest useful features
-- Share safe educational examples
-- Contribute improvements through pull requests
+- Suggest practical features
+- Add safe educational examples
+- Improve documentation
+- Contribute changes through pull requests
 
 ---
 
@@ -175,8 +188,8 @@ Planned:
 - React / Vite
 - Lightweight API layer
 - GitHub Actions
-- Telegram bot integration
-- Optional AI model integration
+- Telegram draft workflow
+- Optional AI-assisted text generation
 
 ---
 
@@ -195,7 +208,7 @@ Open:
 index.html
 ```
 
-No API key required for the MVP.
+No API key is required for the MVP.
 
 ---
 
